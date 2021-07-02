@@ -1,0 +1,11 @@
+def evaluate(self):
+        self.total += self.expression
+        self.update_label()
+
+        try:
+            self.expression = str(eval(self.total))
+            self.total = ""
+        except Exception as e:
+            self.expression = "Math Error"
+        finally:
+            self.update_total()
