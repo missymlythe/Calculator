@@ -1,6 +1,6 @@
 def add_operator(self, operator):
         check_ttl = []
-        check_exp = []
+        
         for y in self.expression:
         	check_ttl.append(y)
         		   
@@ -11,3 +11,4 @@ def add_operator(self, operator):
         self.expression = ""
         self.update_label()
         self.update_total()
+
