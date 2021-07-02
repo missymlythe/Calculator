@@ -48,7 +48,16 @@ class Calculator:
         self.digit_buttons()
         self.operator_buttons()
         self.special_buttons()
+        self.keyboard()
         
+    def keyboard(self):
+        self.window.bind("<Return>", lambda event: self.evaluate())
+        for key in self.digits:
+            self.window.bind(str(key), lambda event, digit = key: self.add_expression(digit))
+        
+        for key in self.operations:
+            self.window.bind(key, lambda event, operator = key: self.add_operator(operator))
+
     def special_buttons(self):
         self.clear_button()
         self.equals_button()
