@@ -69,3 +69,69 @@ class Calculator:
             button = tk.Button(self.button_frame, text = symbol, bg = DARK_GRAY, fg = BLUE_GREEN, font = DEFULT_FONT, borderwidth = 0, command = lambda x = operator: self.add_operator(x))
             button.grid(row = i, column = 4, sticky = tk.NSEW)
             i +=1
+            
+def special_buttons(self):
+        self.clear_button()
+        self.equals_button()
+        self.square_button()
+        self.sqrt_button()
+        self.delete_button()
+        self.sin_button()
+        self.cos_button()
+        self.tan_button()
+        self.percent_button()
+
+    def clear_button(self):
+        button = tk.Button(self.button_frame, text = "C", bg = DARK_GRAY, fg = ORANGE, font = DEFULT_FONT, borderwidth = 0, command = self.clear)
+        button.grid(row = 0, column = 1, sticky = tk.NSEW)
+
+    def delete_button(self):
+        button = tk.Button(self.button_frame, text = "Del", bg = DARK_GRAY, fg = ORANGE, font = DEFULT_FONT, borderwidth = 0, command = self.delete)
+        button.grid(row = 0, column = 4, sticky = tk.NSEW)
+
+    def square_button(self):
+        button = tk.Button(self.button_frame, text = "x\u00b2", bg = DARK_GRAY, fg = BLUE_GREEN, font = DEFULT_FONT, borderwidth = 0, command = self.square)
+        button.grid(row = 0, column = 3, sticky = tk.NSEW)
+
+    def sqrt_button(self):
+        button = tk.Button(self.button_frame, text = "\u221ax", bg = DARK_GRAY, fg = BLUE_GREEN, font = DEFULT_FONT, borderwidth = 0, command = self.sqrt)
+        button.grid(row = 0, column = 2, sticky = tk.NSEW)
+
+    def percent_button(self):
+        button = tk.Button(self.button_frame, text = "%", bg = DARK_GRAY, fg = BLUE_GREEN, font = DEFULT_FONT, borderwidth = 0, command = self.percent)
+        button.grid(row = 5, column = 3, sticky = tk.NSEW)
+
+    def sin_button(self):
+        button = tk.Button(self.button_frame, text = "sin", bg = DARK_GRAY, fg = BLUE_GREEN, font = DEFULT_FONT, borderwidth = 0, command = self.sin)
+        button.grid(row = 1, column = 1, sticky = tk.NSEW)
+
+    def cos_button(self):
+        button = tk.Button(self.button_frame, text = "cos", bg = DARK_GRAY, fg = BLUE_GREEN, font = DEFULT_FONT, borderwidth = 0, command = self.cos)
+        button.grid(row = 1, column = 2, sticky = tk.NSEW)
+
+    def tan_button(self):
+        button = tk.Button(self.button_frame, text = "tan", bg = DARK_GRAY, fg = BLUE_GREEN, font = DEFULT_FONT, borderwidth = 0, command = self.tan)
+        button.grid(row = 1, column = 3, sticky = tk.NSEW)
+
+    def equals_button(self):
+        button = tk.Button(self.button_frame, text = "=", bg = DARK_GRAY, fg = LIGHT_BLUE, font = DEFULT_FONT, borderwidth = 0, command = self.evaluate)
+        button.grid(row = 5, column = 4, sticky = tk.NSEW)
+
+    def button_frame(self):
+        frame = tk.Frame()
+        frame.pack(expand = True, fill = "both")
+        return frame
+
+    def update_label(self):
+        expr = self.total
+        
+        for operator, symbol in self.operations.items():
+            expr = expr.replace(operator, f" {symbol} ")
+        
+        self.exp_display.config(text = expr)
+
+    def update_total(self):
+        self.total_display.config(text = self.expression[:10])
+
+    def run(self):
+        self.window.mainloop()
