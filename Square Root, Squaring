@@ -1,7 +1,0 @@
-def square(self):
-        self.expression = str(eval(f"{self.expression}**2"))
-        self.update_total()
-
-def sqrt(self):
-        self.expression = str(eval(f"{self.expression}**0.5"))
-        self.update_total()
