@@ -1,4 +1,31 @@
 class Calculator:
+
+    def add_expression(self, value):
+        self.expression += str(value)
+        self.update_total()
+
+    def add_operator(self, operator):
+        self.expression += operator
+        self.total += self.expression
+        self.expression = ""
+        self.update_label()
+        self.update_total()
+
+    def clear(self):
+        self.expression = ""
+        self.total = ""
+        self.update_total()
+        self.update_label()
+
+    def delete(self):
+        try:
+        	self.expression = self.expression[:-1]
+        except IndexError:
+        	pass
+        if len(self.expression) == 0:
+        	self.total = self.total[:-1]
+        self.update_label()
+        self.update_total()
     
     def square(self):
         a = self.expression
