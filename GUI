@@ -70,7 +70,15 @@ class Calculator:
             button.grid(row = i, column = 4, sticky = tk.NSEW)
             i +=1
             
-def special_buttons(self):
+    def keyboard(self):
+        self.window.bind("<Return>", lambda event: self.evaluate())
+        for key in self.digits:
+            self.window.bind(str(key), lambda event, digit = key: self.add_expression(digit))
+        
+        for key in self.operations:
+            self.window.bind(key, lambda event, operator = key: self.add_operator(operator))            
+            
+    def special_buttons(self):
         self.clear_button()
         self.equals_button()
         self.square_button()
@@ -135,3 +143,9 @@ def special_buttons(self):
 
     def run(self):
         self.window.mainloop()
+        
+        
+        
+if __name__ == "__main__":
+    calc = Calculator()
+    calc.run()
