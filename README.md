@@ -1,7 +1,7 @@
 # Calculator
 A calculator is a device that performs arithmetic operations on numbers. The simplest calculators can do only addition, subtraction, multiplication, and division.
 
-![Calculator](https://user-images.githubusercontent.com/86279975/124251660-6008fb00-db50-11eb-9607-ea1403600d90.png)
+![CALC](https://user-images.githubusercontent.com/86279975/124925525-b8476d80-e026-11eb-8b50-f1f4eb27aaa9.png)
 
 ## Features
 - Standard Calculator functionality which offers basic operations and evaluates commands immediately as they are entered.
