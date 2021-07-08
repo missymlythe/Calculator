@@ -5,6 +5,7 @@ A calculator is a device that performs arithmetic operations on numbers. The sim
 
 
 ## Features
+- Calculator functionality which offers operations and evaluates commands using order of operations.
 - Standard Calculator functionality which offers basic operations and evaluates commands immediately as they are entered.
     1. Evaluate
       -To evaluate an algebraic expression means to find the value of the expression when the variable is replaced by a given number. To evaluate an expression, we substitute the given number for the variable in the expression and then simplify the expression using the order of operations.
@@ -28,5 +29,3 @@ A calculator is a device that performs arithmetic operations on numbers. The sim
       -The percent function is used by clicking on the "%" or using the keyboard. The percent function is used to add, subtract, multiply, or divide a percent of a number. It's used to calculate the percent of a number. Here are some examples:
       73+4.5% = 76.285.
       18/80% = 1.25.
-- Scientific Calculator functionality which offers expanded operations and evaluates commands using order of operations.
-- Programmer Calculator functionality which offers common mathematical operations for developers including conversion between common bases.
