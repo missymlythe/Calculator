@@ -1,5 +1,4 @@
 class Calculator:
-
     def add_expression(self, value):
         self.expression += str(value)
         self.update_total()
