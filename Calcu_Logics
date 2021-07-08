@@ -1,0 +1,101 @@
+class Calculator:
+    def add_expression(self, value):
+        self.expression += str(value)
+        self.update_total()
+
+    def add_operator(self, operator):
+        self.expression += operator
+        self.total += self.expression
+        self.expression = ""
+        self.update_label()
+        self.update_total()
+
+    def clear(self):
+        self.expression = ""
+        self.total = ""
+        self.update_total()
+        self.update_label()
+
+    def delete(self):
+        try:
+        	self.expression = self.expression[:-1]
+        except IndexError:
+        	pass
+        if len(self.expression) == 0:
+        	self.total = self.total[:-1]
+        self.update_label()
+        self.update_total()
+    
+    def square(self):
+        a = self.expression
+        if self.expression == "":
+        	return ""
+        self.total += (f"{self.expression}\u00b2")
+        self.expression = str(eval(f"{self.expression}**2"))
+        self.update_total()
+        self.update_label()
+        self.total = self.total.replace(f"{a}\u00b2", "")
+
+    def sqrt(self):
+        a = self.expression
+        if self.expression == "":
+        	return ""
+        self.total += str(f"\u221a{self.expression}")
+        self.expression = str(eval(f"{self.expression}**0.5"))
+        self.update_total()
+        self.update_label()
+        self.total = self.total.replace(f"\u221a{a}", "")
+
+    def percent(self):
+        a = self.expression
+        if self.expression == "":
+        	return ""
+        self.total += str(f"{self.expression}%")
+        self.expression = str(eval(f"{self.expression}/100"))
+        self.update_total()
+        self.update_label()
+        
+        self.total = self.total.replace(f"{a}%", "")
+
+    def sin(self):
+        if self.expression == "":
+        	return ""
+        a = self.expression
+        self.total += str(f"sin({self.expression})")
+        self.expression = str(math.sin(eval(f"{self.expression}")))
+        
+        self.update_total()
+        self.update_label()
+        self.total = self.total.replace(f"sin({a})", "")    
+
+    def cos(self):
+        a = self.expression
+        if self.expression == "":
+        	return ""
+        self.total += str(f"cos({self.expression})")
+        self.expression = str(math.cos(eval(f"{self.expression}")))
+        self.update_total()
+        self.update_label()
+        self.total = self.total.replace(f"cos({a})", "")
+        
+    def tan(self):
+        a = self.expression
+        if self.expression == "":
+        	return ""
+        self.total += str(f"tan({self.expression})")
+        self.expression = str(math.tan(eval(f"{self.expression}")))
+        self.update_total()
+        self.update_label()
+        self.total = self.total.replace(f"tan({a})", "")
+    
+    def evaluate(self, *args):
+        self.total += self.expression
+        self.update_label()
+
+        try:
+            self.expression = str(eval(self.total))
+            self.total = ""
+        except Exception as e:
+            self.expression = "Math Error"
+        finally:
+            self.update_total()
