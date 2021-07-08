@@ -29,3 +29,5 @@ A calculator is a device that performs arithmetic operations on numbers. The sim
       -The percent function is used by clicking on the "%" or using the keyboard. The percent function is used to add, subtract, multiply, or divide a percent of a number. It's used to calculate the percent of a number. Here are some examples:
       73+4.5% = 76.285.
       18/80% = 1.25.
+    11. Sine, Cosine and Tangent
+      - Three (3) popular trogonometric function will appear.
