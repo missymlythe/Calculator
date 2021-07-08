@@ -1,9 +1,0 @@
-def delete(self):
-        try:
-        	self.expression = self.expression[:-1]
-        except IndexError:
-        	pass
-        if len(self.expression) == 0:
-        	self.total = self.total[:-1]
-        self.update_label()
-        self.update_total()
