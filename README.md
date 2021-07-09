@@ -55,7 +55,6 @@ We hope that you will enjoy this calculator. Have a great day!
        
        The cosine function is used by clicking on the "cos" button or using the keyboard shortcut "w".
        
-
-       
-
-        
+       The tangent function is used by clicking on the "tan" button or using the keyboard shortcut "e".
+   
+   
