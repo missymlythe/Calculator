@@ -18,7 +18,7 @@ The features of this branch are as follows:
 
       •	Adding operators
 
-When we are creating the calculator logic of our own calculator, we experienced different challenges in different functions which are as follows:
+When we were creating the calculator logic of our own calculator, we experienced different challenges in different functions, which are as follows:
 
       •	Only 1 decimal every float
 
