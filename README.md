@@ -8,7 +8,7 @@ The features of this branch are as follows:
 
       •	Trigonometric functions that converts the given number into a specific value
 
-      •	Functions of different buttons like operator buttons, delete button, clear button , percent button, and others.
+      •	Functions of different buttons like operator buttons, delete button, clear button , percent button, and others
 
       •	Square root function 
 
