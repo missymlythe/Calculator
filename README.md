@@ -50,4 +50,8 @@ We hope that you will enjoy this calculator. Have a great day!
     11. **Sine, Cosine and Tangent**
       - Three (3) popular trogonometric function will appear. This trigonometry calculator will help you in two popular cases when trigonometry is needed. If you want to find the values of sine, cosine, tangent.
 
+
+       The sine function is used by clicking on the "sin" button or using the keyboard shortcut "q".
+       
+
         
