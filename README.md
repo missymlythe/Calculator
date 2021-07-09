@@ -2,7 +2,7 @@
 EEE100 - 17N Group CodeGeeks Project 1 - Calculator
 
 # CALCULATOR LOGIC FEATURES
-Calculator logic involves the calculator’s functionality which where the basic operations and commands that evaluates mathematical expressions immediately as they are entered.
+Calculator logic involves the calculator’s functionality wherein basic operations and commands evaluate mathematical expressions immediately as they are entered.
 
 The features of this branch are as follows:
 
