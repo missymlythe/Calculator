@@ -43,7 +43,7 @@ We hope that you will enjoy this calculator. Have a great day!
     
               Here are some examples:
 
-                73 + 4.5% = 76.285
+                50% + 1 = 1.5
 
                 18 / 80% = 1.25
       
