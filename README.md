@@ -48,4 +48,6 @@ We hope that you will enjoy this calculator. Have a great day!
         18 / 80% = 1.25
       
     11. **Sine, Cosine and Tangent**
-      - Three (3) popular trogonometric function will appear.
+      - Three (3) popular trogonometric function will appear. This trigonometry calculator will help you in two popular cases when trigonometry is needed. If you want to find the values of sine, cosine, tangent.
+
+        
