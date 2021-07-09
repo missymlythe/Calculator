@@ -29,15 +29,19 @@ A calculator is a device that performs arithmetic operations on numbers. The sim
       - The division (divide function) is used by clicking on the "/" button or using the keyboard "/" key. The function results in a/b.
       
     8. **Square**
-      - The square function is used by clicking on the "x^2" button or using the keyboard shortcut "s". The function results in x*x
+      - The square function is used by clicking on the "x^2" button or using the keyboard shortcut "s". The function results in x*x.
       
     9. **Square root**
       - The square root function is used by clicking on the "x" button or using the keyboard shortcut "r". This function represents x^.5 where the result squared is equal to x.
       
     10. **Percent**
-      - The percent function is used by clicking on the "%" or using the keyboard. The percent function is used to add, subtract, multiply, or divide a percent of a number. It's used to calculate the percent of a number. Here are some examples:
-      73+4.5% = 76.285.
-      18/80% = 1.25
+      - The percent function is used by clicking on the "%" or using the keyboard. The percent function is used to add, subtract, multiply, or divide a percent of a number. It's used to calculate the percent of a number.
+    
+      Here are some examples:
+      
+        73 + 4.5% = 76.285
+      
+        18 / 80% = 1.25
       
     11. **Sine, Cosine and Tangent**
       - Three (3) popular trogonometric function will appear.
