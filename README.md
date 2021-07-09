@@ -15,6 +15,6 @@ The features of this branch are as follows:
 
 •	A user  friendly interface that lets the user use the calculator at ease.
 
-•	It uses suitable colours for key areas or buttons
+•	It uses suitable colours for key areas or buttons.
 
-•	It helps with the documentation process
+•	It helps with the documentation process.
