@@ -31,16 +31,16 @@ We hope that you will enjoy this calculator. Have a great day!
     6. **Multiplication**
       - The subtraction (minus function) is used by clicking on the "-" button or using the keyboard. The function results in a-b.
       
-    7. *Division*
+    7. **Division**
       - The division (divide function) is used by clicking on the "/" button or using the keyboard "/" key. The function results in a/b.
       
-    8. *Square*
+    8. **Square**
       - The square function is used by clicking on the "x^2" button or using the keyboard shortcut "s". The function results in x*x.
       
-    9. *Square root*
+    9. **Square root**
       - The square root function is used by clicking on the "x" button or using the keyboard shortcut "r". This function represents x^0.5 where the result squared is equal to x.
       
-    10. *Percent*
+    10. **Percent**
       - The percent function is used by clicking on the "%" or using the keyboard. The percent function is used to add, subtract, multiply, or divide a percent of a number. It's used to calculate the percent of a number.
     
               Here are some examples:
@@ -49,7 +49,7 @@ We hope that you will enjoy this calculator. Have a great day!
 
                 18 / 80% = 22.5
       
-    11. *Sine, Cosine and Tangent*
+    11. **Sine, Cosine and Tangent**
       - Three (3) popular trogonometric function will appear. This trigonometry calculator will help you in two popular cases when trigonometry is needed. If you want to find the values of sine, cosine, tangent.
 
                • The sine function is used by clicking on the "sin" button or using the keyboard shortcut "q".
