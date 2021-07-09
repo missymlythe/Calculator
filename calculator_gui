@@ -71,6 +71,22 @@ class Calculator:
             button = tk.Button(self.button_frame, text = symbol, bg = DARK_GRAY, fg = BLUE_GREEN, font = DEFULT_FONT, borderwidth = 0, command = lambda x = operator: self.add_operator(x))
             button.grid(row = i, column = 4, sticky = tk.NSEW)
             i +=1
+            
+    def keyboard(self):
+        self.window.bind("<Return>", lambda event: self.evaluate())
+        self.window.bind("<BackSpace>", lambda event: self.delete())
+        self.window.bind("<Delete>", lambda event: self.clear())
+        self.window.bind("<s>", lambda event: self.square())
+        self.window.bind("<r>", lambda event: self.sqrt())
+        self.window.bind("<%>", lambda event: self.percent())
+        self.window.bind("<q>", lambda event: self.sin())
+        self.window.bind("<w>", lambda event: self.cos())
+        self.window.bind("<e>", lambda event: self.tan())
+        for key in self.digits:
+            self.window.bind(str(key), lambda event, digit = key: self.add_expression(digit))
+        
+        for key in self.operations:
+            self.window.bind(key, lambda event, operator = key: self.add_operator(operator))
 
     def update_label(self):
         expr = self.total
