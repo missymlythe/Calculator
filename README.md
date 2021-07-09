@@ -8,7 +8,7 @@ A calculator is a device that performs arithmetic operations on numbers. The sim
 - Calculator functionality which offers operations and evaluates commands using order of operations.
 - Standard Calculator functionality which offers basic operations and evaluates commands immediately as they are entered.
     1. Evaluate
-      -To evaluate an algebraic expression means to find the value of the expression when the variable is replaced by a given number. To evaluate an expression, we substitute the given number for the variable in the expression and then simplify the expression using the order of operations.
+      - To evaluate an algebraic expression means to find the value of the expression when the variable is replaced by a given number. To evaluate an expression, we substitute the given number for the variable in the expression and then simplify the expression using the order of operations.
     2. Delete
       - Enable to delete the last value entered.
     3. Clear
