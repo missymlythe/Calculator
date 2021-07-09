@@ -13,22 +13,22 @@ We hope that you will enjoy this calculator. Have a great day!
 ## Features
 - Calculator functionality which offers operations and evaluates commands using order of operations.
 - Standard Calculator functionality which offers basic operations and evaluates commands immediately as they are entered.
-    1. *Evaluate*
+    1. **Evaluate**
       - To evaluate an algebraic expression means to find the value of the expression when the variable is replaced by a given number. To evaluate an expression, we substitute the given number for the variable in the expression and then simplify the expression using the order of operations.
       
-    2. *Delete*
+    2. **Delete**
       - Enable to delete the last value entered.
       
-    3. *Clear*
+    3. **Clear**
       - Clear out the current calculations.
       
-    4. *Addition*
+    4. **Addition**
       - The addition (sum function) is used by clicking on the "+" button or using the keyboard. The function results in a+b.
       
-    5. *Subtraction*
+    5. **Subtraction**
       - The subtraction (minus function) is used by clicking on the "-" button or using the keyboard. The function results in a-b.
       
-    6. *Multiplication*
+    6. **Multiplication**
       - The subtraction (minus function) is used by clicking on the "-" button or using the keyboard. The function results in a-b.
       
     7. *Division*
