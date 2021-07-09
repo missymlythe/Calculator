@@ -53,5 +53,9 @@ We hope that you will enjoy this calculator. Have a great day!
 
        The sine function is used by clicking on the "sin" button or using the keyboard shortcut "q".
        
+       The cosine function is used by clicking on the "cos" button or using the keyboard shortcut "w".
+       
+
+       
 
         
