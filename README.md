@@ -1,5 +1,5 @@
 # CodeGeeks Calculator
-A calculator is a device that performs arithmetic operations on numbers. The simplest calculators can only perform simple four-function operations such as addition, subtraction, multiplication, and division. In this calculator we have made, however, we added some functionalities that can evaluate more equations. 
+A calculator is a device that performs arithmetic operations on numbers. It is a big help when doing mathematical equations correctly, since it is a useful tool in learning different ways to do mathematics. The simplest calculators can only perform simple four-function operations such as addition, subtraction, multiplication, and division. In this calculator we have made, however, we added some functionalities that can evaluate more equations. 
 
 We hope that you will enjoy this calculator. Have a great day!
 
