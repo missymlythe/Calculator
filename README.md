@@ -2,7 +2,7 @@
 EEE100 - 17N Group CodeGeeks Project 1 - Calculator
 
 # GRAPHICAL USER INTERFACE (GUI) FEATURES
-Graphical User Interface (GUI) is a type of user interface through which users interact with electronic devices via visual indicator representations. In our case we will be dealing with the calculator’s user interface through the direct manipulation of graphical icons such as buttons, scroll bars, tabs, cursors, and mouse pointing device.
+Graphical User Interface (GUI) is a type of user interface through which users interact with electronic devices via visual indicator representations. In our case we will be dealing with the calculator’s user interface through the direct manipulation of graphical icons such as buttons, calculator tab, cursors, and mouse pointing device.
 
 The features of this branch are as follows:
 
